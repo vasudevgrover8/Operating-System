@@ -15,16 +15,6 @@ int main()
     int j = 0;
     int k = 0;
 
-    /*while (i <= 2)
-    {
-        frame[i] = reference_string[i];
-        rear = &frame[0];
-        cout << "The value of frame[" << i << "] is " << frame[i] << endl;
-        cout << "The value in rear is " << *rear << endl;
-        miss = miss + 1;
-        i = i + 1;
-    }*/
-
     for (i = 0; i <= 20; i++)
     {
         search = reference_string[i];
