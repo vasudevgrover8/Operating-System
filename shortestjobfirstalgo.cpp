@@ -11,11 +11,11 @@ int main() {
     process p[5];
     int time = 0;
 
-    p[0].at = 3; p[0].et = 1; // Process 1
-    p[1].at = 1; p[1].et = 4; // Process 2
-    p[2].at = 4; p[2].et = 2; // Process 3
-    p[3].at = 0; p[3].et = 6; // Process 4
-    p[4].at = 2; p[4].et = 3; // Process 5
+    p[0].at = 3; p[0].et = 1; 
+    p[1].at = 1; p[1].et = 4; 
+    p[2].at = 4; p[2].et = 2; 
+    p[3].at = 0; p[3].et = 6; 
+    p[4].at = 2; p[4].et = 3; 
 
     for (int i = 0; i < 5; i++) {
         for (int j = i + 1; j < 5; j++) {
